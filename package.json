@@ -1,0 +1,31 @@
+{
+	"name": "amigame",
+	"description": "Remote API in Node.js for Amigame",
+	"version": "0.0.1",
+	"author": "kdi",
+	"contributors": [
+		{ "name": "Makis Tracend", "email": "makis@kdi.co" }
+	],
+	"homepage": "http://amigame.co",
+	"keywords": ["amigame", "crud", "api", "json"],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/amigame-api/node.git"
+	},
+	"bugs": {
+		"url": "http://github.com/amigame-api/node/issues"
+	},
+	"licenses": [{
+		"type": "MIT",
+		"url": "http://www.makesites.org/licenses/MIT"
+	}],
+	"engines": { "node": ">=0.8.x" },
+	"main": "index",
+	"bin": { },
+	"dependencies": {
+		"passport": "0.2.1",
+		"passport-amigame": "0.x",
+		"request": "2.51.0",
+		"underscore": "1.7.0"
+	}
+}
